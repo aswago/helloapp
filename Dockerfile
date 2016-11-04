@@ -1,3 +1,3 @@
-FROM 7-apache:latest
-COPY . /var/www/
-WORKDIR /var/www
+FROM php:7-apache
+COPY . /var/www/html/
+WORKDIR /var/www/html/
