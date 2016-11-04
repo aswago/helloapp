@@ -3,5 +3,5 @@ sudo: required
 services:
     - docker
 
-scripts:
+script:
     - docker ps
